@@ -1,5 +1,5 @@
 `timescale 1ns / 10ps
-module design_top(
+module filter(
     clk,
     rst,
     data_in,
