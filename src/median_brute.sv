@@ -1,8 +1,6 @@
 `define CHANNELS 8
 `define BITS_PER_CHANNEL 8
 `define HALFCH (`CHANNELS/2)
-`include "timescale.v"
-
 module median_brute (
     input  logic              clk,
     input  logic [`CHANNELS-1:0][`BITS_PER_CHANNEL-1:0] data_in,

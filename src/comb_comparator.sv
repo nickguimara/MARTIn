@@ -1,5 +1,3 @@
-`include "timescale.v"
-
 module comb_comparator #(
     parameter DATA_SIZE = 12
 )

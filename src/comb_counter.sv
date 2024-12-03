@@ -1,5 +1,3 @@
-`include "timescale.v"
-
 module comb_counter #(
     parameter CHANNELS = 64
 ) (
