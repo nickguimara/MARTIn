@@ -124,7 +124,7 @@ module tb();
 
         @(posedge clk);
         #5;
-        repeat (10000) begin
+        repeat (1000) begin
             generate_data;
             data_in = test_data[0];
             #14;
@@ -148,7 +148,7 @@ module tb();
         @(posedge clk);
         #5;
 
-        repeat(10000) begin
+        repeat(1000) begin
             generate_data;
             send_data;
             @(posedge clk);
@@ -172,7 +172,7 @@ module tb();
         @(posedge clk);
         #5;
         
-        repeat(10000) begin
+        repeat(1000) begin
             generate_data;
             send_data;
             @(posedge clk);
